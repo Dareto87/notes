@@ -1,0 +1,47 @@
+NPM就是nodeNode.js的包管理工具
+
+A、安装Node.JS（已集成npm）
+node -v 查看node版本
+npm -v 查看npm版本
+
+B、全局安装NPM(或升级)
+法1（网络好）
+npm i npm -g
+
+法2（换国内镜像）【npm i -g cnpm --registry=https://registry.npm.taobao.org】
+cnpm i npm -g
+
+
+C、常用命令
+创建一个文件夹并进入
+mkdir xx&cd xx
+
+安装相关
+npm init //在项目中引导创建一个package.json文件
+npm i //根据package.json文件安装所有有关的依赖包
+
+npm i xx //安装包，默认会安装最新的版本,本地安装
+npm i xx -g //全局安装
+npm i xx@1.0.0 //安装指定版本
+
+npm i xx --save //安装包信息将加入到dependencies（生产阶段的依赖）
+npm i xx --save-dev //安装包信息将加入到devDependencies（开发阶段的依赖）
+
+卸载
+npm uninstall yarn -g（不能用cnpm）
+
+运行
+npm run xx
+
+查看某个模块全部版本
+npm view xx versions
+
+D、其它
+查询和设置安装源
+npm config get registry
+npm config set registry=https://registry.npm.taobao.org
+
+查找全局安装位置
+npm config get prefix
+
+

@@ -1,0 +1,28 @@
+1.已熟练常用
+Ctrl+/ 或 Ctrl+Shift+/   ---注释（// 或者/*…*/ ）
+Ctrl+Z和Ctrl+Shift+Z   ---后退和前进
+Ctrl+F和Ctrl+R   ---查找和替换
+
+2.未熟练好用
+Ctrl+Alt+L   ---格式化代码
+双击 shift   ---全局搜索
+Shift+F6   ---重命名
+F5   ---复制当前页面
+按住Alt   ---同时修改多行
+Shift+Enter和Ctrl+Alt+Enter   ---下一行和上一行
+Ctrl+D和Ctrl+X   ---复制行和删除行
+Ctrl+Shift+Up/Down   ---代码向上/下移动
+F2 或Shift+F2   ---高亮错误或警告快速定位
+Ctrl+Shift+F7   ---高亮显示所有该文本
+Ctrl+Shift+U   ---大小写转换 
+
+3.html缩写
+html:5   ---html5结构
+div#xx   ---id
+div.xx   ---class
+script:src   ---引入js
+ul+   ---ul及一个li
+head>link:css   ---head加link
+div+h1+p   ---兄弟元素
+p*3 ---多个元素
+ul>li.item$*3   ---创建ul下有个li同时class分别为item1，item2，item3
